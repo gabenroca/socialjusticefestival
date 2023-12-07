@@ -1,0 +1,182 @@
+* {
+padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+background-repeat: no-repeat;
+}
+
+body {
+font-family: Outfit;
+}
+
+nav {
+    background: #0474BA;
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+label.logo {
+    padding-left: 50px;
+    margin-top: 150px;
+    
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 125px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+color: aliceblue;
+font-size: 20px;
+padding-right: 50px;
+padding: 7px 13px;
+border-radius: 3px;
+text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background: #f17720;
+    transition: 2s;
+}
+
+.page {
+    padding-top: 125px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.text_home {
+    padding-left: 335px;
+    padding-top: 15px;
+    font-size: 30px;
+    font-style: thin;
+    color: #0474BA;
+    line-height: 35px;
+}
+.text {
+    padding-left: 335px;
+    padding-right: 335px;
+    font-size: 18px;
+    line-height:  35px;
+}
+
+.text2 {
+    padding-left: 335px;
+    padding-right: 600px;
+    padding-top: 15px;
+    font-size: 18px;
+    line-height:  35px;
+}
+
+.TCF {
+    color: #0474BA;
+}
+
+.SOF {
+    color: #0474BA;
+}
+
+.container {
+    padding-left: 355px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    column-gap: 70px;
+}
+
+.megaphone {
+display: inline-block;
+}
+
+.home_headers {
+    text-align: center;
+    width: 200px;
+    font-size: 23px ;
+    color: #0474BA;
+    display: inline-block;
+    line-height: 35px;
+}
+
+.home_description {
+    text-align: center;
+    width: 200px;
+    font-size: 18px ;
+    display: inline-block;
+    line-height:  35px;
+}
+
+.education {
+display: inline-block;
+}
+
+.community {
+    display: inline-block;
+}
+
+.ig_post {
+    display: inline-block;
+}
+
+.container2 {
+    padding-left: 335px;
+    width: 230px;
+    text-align: center;
+    display: flex;
+    column-gap: 50px;
+}
+
+.container3 {
+    padding-left: 335px;
+    width: 825px;
+    display: flex;
+    column-gap: 20px ;
+}
+
+.events {
+    display: inline-block;
+}
+
+.day1 {
+    font-size: 40px;
+    font-style: thin;
+    color: #f17720;
+}
+
+.event1 {
+    font-size: 30px;
+    font-style: thin;
+    color: #0474BA;
+    line-height:  35px; 
+    padding-top: 20px;
+}
+
+.event1_text {
+    padding-top: 55px;
+    font-size: 18px;
+    color: black;
+}
+
+.event1_picture {
+    display: inline-block;
+}
+
+.wristband {
+    padding-left: 100px;
+    text-align: center;
+}
+
+    
